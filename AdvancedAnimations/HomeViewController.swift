@@ -3,6 +3,7 @@ import UIKit
 final class HomeViewController: UIViewController {
 	override func loadView() {
 		super.loadView()
+		view.backgroundColor = .systemBackground
 
 		let viewPhotoButton = UIButton(
 			configuration: .tinted(),
