@@ -13,7 +13,7 @@ final class CommentsViewController: UIViewController {
 
 		label.translatesAutoresizingMaskIntoConstraints = false
 		view.addSubview(label)
-		
+
 		NSLayoutConstraint.activate([
 			label.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor),
 			label.centerYAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerYAnchor),
